@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.big {
+  background-color: #23424a;
+  color: white;
+  padding: 100px 0;
+}
+.content {
+  width: 60%;
+}
+
+.big p {
+  margin-bottom: 3em;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+a {
+  text-transform: uppercase;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 0.75em 2em;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #38cfd9;
+  color: #23424a;
+}
+
+a:hover,
+a:focus {
+  background-color: black;
+  color: #38cfd9;
+}
