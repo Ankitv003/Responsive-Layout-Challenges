@@ -110,10 +110,14 @@ body {
 
 .dark-section-image,
 .light-section-image {
-  width: 50%;
+  max-width: 100%;
 }
 
 /* -------------------light-section------------------ */
 .cover-light {
   background-color: #824936;
 }
+
+/* img {
+  max-width: 100%;
+} */
