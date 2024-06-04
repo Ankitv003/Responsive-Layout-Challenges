@@ -83,6 +83,7 @@ body {
   justify-content: space-between;
   padding: 4em;
   align-items: center;
+  gap: 2em;
 }
 
 .dark-section-content,
