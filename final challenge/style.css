@@ -60,7 +60,7 @@ h3 {
 .header-title {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .header__title--break {
@@ -69,7 +69,7 @@ h3 {
 
 .header-content {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .learn-btn {
@@ -81,7 +81,7 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 /* ----------------------------------------------------------------------- */
@@ -94,27 +94,27 @@ h3 {
   color: #a59678;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 .content-section-one-text {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: "Montserrat", sans-serif;
 }
 /* ----------------------------------------------------------------------- */
 .content-section-two-main-header {
   color: #a59678;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
 
 .content-section-two-main-text {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: "Montserrat", sans-serif;
 }
 
-.content-section-two-div {
+.content-section-two-elem-div {
   text-align: center;
   background-color: #2e323f;
   color: #fff;
@@ -124,29 +124,42 @@ h3 {
 .content-section-two-elem-header {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .content-section-two-elem-text {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: "Montserrat", sans-serif;
 }
 /* ----------------------------------------------------------------------- */
 .footer {
   background-color: #3b4050;
   color: #6f737f;
+  text-align: center;
 }
 .footer-title {
   padding-top: 3em;
   color: #fff;
   text-transform: capitalize;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
 .footer-content-header {
+  margin-top: 2.5em;
   color: #a59678;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
+  font-size: 2rem;
+}
+
+.footer-content-text {
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.last-footer .footer-content-text:last-child {
+  margin-bottom: 0;
+  padding-bottom: 4em;
 }
 /* ----------------------------------------------------------------------- */
 .logo {
@@ -232,7 +245,7 @@ h3 {
 }
 .nav__item {
   margin-bottom: 1em;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 .nav__link {
   text-decoration: none;
@@ -243,7 +256,7 @@ h3 {
   padding: 0.3em 1em;
   border-radius: 100px;
 }
-@media (min-width: 700px) {
+@media (min-width: 722px) {
   .nav-toggle {
     display: none;
   }
@@ -257,7 +270,7 @@ h3 {
   }
   .nav__item {
     margin: 0;
-    margin-left: 2em;
+    margin-left: 2.5em;
   }
   .nav__list {
     display: flex;
@@ -267,5 +280,95 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .nav-row {
+    align-items: flex-end;
+  }
+  /* ----------------------------------------------------- */
+
+  .header-title {
+    font-size: 5.625rem;
+  }
+  .header-content {
+    font-size: 1.5rem;
+  }
+  .learn-btn {
+    font-size: 1.5rem;
+  }
+  .header-section {
+    gap: 12em;
+  }
+  .col {
+    width: 100%;
+  }
+  .change-self {
+    margin-top: 2.5em;
+  }
+  /* ------------------------------------------------------- */
+  .content-section-one-header {
+    font-size: 1.875rem;
+  }
+  .content-section-one-text {
+    font-size: 1.125rem;
+  }
+  .increase-gap {
+    gap: 6em;
+  }
+  /* ---------------------------------------------------------- */
+
+  .content-section-two-main-header {
+    font-size: 2.25rem;
+  }
+  .content-section-two-main-text {
+    font-size: 1.3125rem;
+  }
+  .content-section-two-elem-header {
+    font-size: 1.875rem;
+  }
+  .content-section-two-elem-text {
+    font-size: 1.125rem;
+  }
+
+  .col-one {
+    width: 70%;
+  }
+  .col-two {
+    align-self: baseline;
+    width: 30%;
+  }
+  .change-for-media {
+    gap: 4em;
+  }
+  /* ------------------------------------------------------------- */
+  .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap:2em
+  }
+  .footer-title {
+    margin-top: 0;
+  }
+
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .change-for-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .change-direction {
+    display: flex;
+    gap: 1em;
+  }
+  .increase-gap {
+    display: block;
+  }
+  .content-section-one-header {
+    font-size: 2rem;
+  }
+  .content-section-one-text {
+    font-size: 1.5rem;
   }
 }
