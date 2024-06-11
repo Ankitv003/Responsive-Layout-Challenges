@@ -313,6 +313,7 @@ h3 {
   }
   .increase-gap {
     gap: 6em;
+    align-items: baseline;
   }
   /* ---------------------------------------------------------- */
 
@@ -344,12 +345,22 @@ h3 {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    gap:2em
+    gap: 2em;
   }
   .footer-title {
     margin-top: 0;
   }
-
+  .check-distance {
+    margin-right: 1em;
+    max-width: 45%;
+  }
+  .footer-content-header {
+    font-size: 1.3125rem;
+  }
+  .footer-content-text {
+    font-size: 1rem;
+  }
+}
 
 @media (min-width: 700px) and (max-width: 1000px) {
   .change-for-media {
@@ -370,5 +381,24 @@ h3 {
   }
   .content-section-one-text {
     font-size: 1.5rem;
+  }
+  .col-one {
+    width: 100%;
+  }
+  .col-two {
+    width: 100%;
+  }
+  .header-title {
+    margin-right: 0.5em;
+    font-size: 4.5rem;
+  }
+  .header-content {
+    font-size: 1.25rem;
+  }
+  .change-self {
+    margin-top: 0;
+  }
+  .learn-btn {
+    font-size: 1.25rem;
   }
 }
