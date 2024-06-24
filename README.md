@@ -36,3 +36,21 @@ To run this project locally, follow these steps:
    
    ```bash
    git clone https://github.com/Ankitv003/Responsive-Layout-Challenges.git
+2. **Navigate to the project directory:**
+   ```bash
+   cd Responsive-Layout-Challenges
+3. Open the `index.html` file in your browser:
+   ```bash
+   open index.html
+## Usage
+Once you have the project open in your browser, you can start working on the challenges. Each challenge is located in its own folder within the project directory. Navigate to the challenge folder you want to work on and open the associated HTML file in your browser to view the challenge. Use your preferred code editor to modify the HTML and CSS files as you work on the solutions.
+
+## Contact
+
+Feel free to reach out if you have any questions or suggestions! You can contact me via the contact form on the website or through the following channels:
+
+- **Email**: ankitv78389@gmail.com
+- **LinkedIn**: https://linkedin.com/in/ankit-verma03
+- **GitHub**: https://github.com/Ankitv003
+
+Thank you for exploring Responsive Layout Challenges! Happy coding and improving your responsive design skills!
